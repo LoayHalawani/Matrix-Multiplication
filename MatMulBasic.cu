@@ -16,14 +16,16 @@ __host__ void generate(int *matrix, int rows, int cols) {
     }
 }
 
-/*__host__ void display(int *matrix, int rows, int cols) {
+/*
+__host__ void display(int *matrix, int rows, int cols) {
     for(int i = 0; i < rows; i ++) {
         for(int j = 0; j < cols; j ++) {
             printf("%d ", matrix[i * cols + j]);
         }
         printf("\n");
     }
-}*/
+}
+*/
 
 __global__ void mat_mul(int *A, int *B, int *C) {
     int row = (blockIdx.y * blockDim.y) + threadIdx.y;
@@ -73,9 +75,11 @@ int main() {
 
     cudaMemcpy(h_c, d_c, s_c, cudaMemcpyDeviceToHost);
 
-    //printf("Resulting Matrix C (300x200):\n");
-    //display(h_c, M, K);
-
+    /*
+    printf("Resulting Matrix C (300x200):\n");
+    display(h_c, M, K);
+    */
+    
     cudaFree(d_a);
     cudaFree(d_b);
     cudaFree(d_c);
