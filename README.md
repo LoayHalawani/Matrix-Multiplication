@@ -8,4 +8,4 @@ Basic: "nvcc MatMulBasic.cu -o out" | Tiling: "nvcc MatMulTiling.cu -o out"
 ./out
 
 # Output
-Both programs output processing time taken by the matrix multiplication operation in milliseconds. Commented out sections include code for printing the resulting matrix C.
+Both programs output processing time taken by the matrix multiplication operation in milliseconds. Commented out sections include code for printing out the resulting matrix C.
