@@ -8,4 +8,4 @@ Both programs output processing time taken by the matrix multiplication operatio
 Basic: 'nvcc MatMulBasic.cu -o out' | Tiling: 'nvcc MatMulTiling.cu -o out'
 
 # How-to-run
-./out
+'./out'
