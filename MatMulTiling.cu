@@ -23,8 +23,8 @@ __host__ void display(int *matrix, int rows, int cols) {
         for(int j = 0; j < cols; j ++) {
             printf("%d ", matrix[i * cols + j]);
         }
-        printf("\n");
     }
+    printf("\n\n");
 }
 */
 
@@ -103,7 +103,17 @@ int main() {
     clock_t end = clock();
 
     cudaMemcpy(h_c, d_c, s_c, cudaMemcpyDeviceToHost);
-
+    
+    /*
+    printf("Random Matrix A (300x500):\n");
+    display(h_a, M, N);
+    */
+    
+    /*
+    printf("Random Matrix B (500x200):\n");
+    display(h_b, N, K);
+    */
+    
     /*
     printf("Resulting Matrix C(300x200):\n");
     display(h_c, M, K);
