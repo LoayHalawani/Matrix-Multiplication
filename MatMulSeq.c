@@ -61,9 +61,18 @@ int main() {
 
     clock_t end = clock();
 
-    /*
+     /*
+    printf("Random Matrix A (300x500):\n");
     display(A, M, N);
+    */
+    
+    /*
+    printf("Random Matrix B (500x200):\n");
     display(B, N, K);
+    */
+    
+    /*
+    printf("Resulting Matrix C(300x200):\n");
     display(C, M, K);
     */
 
