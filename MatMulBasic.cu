@@ -65,7 +65,7 @@ int main() {
     dim3 DimBlock(16, 16, 1);
     dim3 DimGrid((K + DimBlock.x - 1) / DimBlock.x, (M + DimBlock.y - 1) / DimBlock.y, 1);
 
-    printf("Multiplying random matrices A (300x500) and B (500x200)...\n");
+    printf("Multiplying random matrices A (%dx%d) and B (%dx%d)...\n", M, N, N, K);
 
     clock_t start = clock();
 
@@ -76,17 +76,17 @@ int main() {
     cudaMemcpy(h_c, d_c, s_c, cudaMemcpyDeviceToHost);
 
     /*
-    printf("Random Matrix A (300x500):\n");
+    printf("Random Matrix A (%dx%d):\n", M, N);
     display(h_a, M, N);
     */
     
     /*
-    printf("Random Matrix B (500x200):\n");
+    printf("Random Matrix B (%dx%d):\n", N, K);
     display(h_b, N, K);
     */
     
     /*
-    printf("Resulting Matrix C (300x200):\n");
+    printf("Resulting Matrix C (%dx%d):\n", M, K);
     display(h_c, M, K);
     */
     
