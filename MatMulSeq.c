@@ -53,7 +53,7 @@ int main() {
     generate(A, M, N);
     generate(B, N, K);
 
-    printf("Multiplying random matrices A (300x500) and B (500x200)...\n");
+    printf("Multiplying random matrices A (%dx%d) and B (%dx%d)...\n", M, N, N, K);
 
     clock_t start = clock();
 
@@ -62,17 +62,17 @@ int main() {
     clock_t end = clock();
 
      /*
-    printf("Random Matrix A (300x500):\n");
+    printf("Random Matrix A (%dx%d):\n", M, N);
     display(A, M, N);
     */
     
     /*
-    printf("Random Matrix B (500x200):\n");
+    printf("Random Matrix B (%dx%d):\n", N, K);
     display(B, N, K);
     */
     
     /*
-    printf("Resulting Matrix C(300x200):\n");
+    printf("Resulting Matrix C(%dx%d):\n", M, K);
     display(C, M, K);
     */
 
