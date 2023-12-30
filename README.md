@@ -7,7 +7,7 @@ All programs output processing time taken by the matrix multiplication operation
 # Prerequisites
 - The latest version of C.
 - The latest version of CUDA.
-- The latest version of the GNU Compiler Collection (GCC).
+- The latest version of GNU Compiler Collection (GCC).
 - The latest version of NVIDIA CUDA Compiler (NVCC).
 - A GPU-enabled OS/environment.
 - Any text editor.
