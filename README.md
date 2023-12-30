@@ -12,7 +12,7 @@ All programs output processing time taken by the matrix multiplication operation
 - A GPU-enabled OS/environment.
 - Any text editor.
 
-# Compiling & Executing
+# Compile & Execute
 1. Open any terminal
 2. Navigate to the directory of the downloaded C/CUDA files
 3. To compile the sequential C code, run 'gcc MatMulSeq -lm -o out1'
