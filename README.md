@@ -4,6 +4,9 @@ We are multiplying two rectangular matrices filled with random 3-digit integers,
 # Output
 All programs output processing time taken by the matrix multiplication operation in milliseconds. Commented out sections include code for printing out the contents of matrix A, B, or C.
 
+# Note
+Parallel CUDA programs include basic and tiled computations of the matrix multiplication operation.
+
 # Prerequisites
 - The latest version of C.
 - The latest version of CUDA.
