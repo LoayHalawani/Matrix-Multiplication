@@ -10,4 +10,4 @@ All programs output processing time taken by the matrix multiplication operation
 - To compile tiled parallel code, run 'nvcc MatMulTiled.cu -o out'.
 
 # Execution
-To execute compiled code, run './out' or 'out'.
+To run output/executable file, run './out' or 'out'.
