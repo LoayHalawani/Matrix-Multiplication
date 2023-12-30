@@ -13,11 +13,11 @@ All programs output processing time taken by the matrix multiplication operation
 - Any text editor.
 
 # Compile & Execute
-1. Open any terminal
-2. Navigate to the directory of the downloaded C/CUDA files
-3. To compile the sequential C code, run 'gcc MatMulSeq -lm -o out1'
-4. To execute the output file, run './out1' or 'out1'
-5. To compile the basic CUDA code, run 'nvcc MatMulBasic.cu -o out2'
-6. To execute the output file, run './out2' or 'out2'
-7. To compile the tiled CUDA code, run 'nvcc MatMulTiled.cu -o out3'
-8. To execute the output file, run './out3' or 'out3'
+1. Open any terminal.
+2. Navigate to the path of the downloaded C/CUDA files.
+3. To compile the sequential C code, run 'gcc MatMulSeq -lm -o out1'.
+4. To execute the output file, run './out1' or 'out1'.
+5. To compile the basic CUDA code, run 'nvcc MatMulBasic.cu -o out2'.
+6. To execute the output file, run './out2' or 'out2'.
+7. To compile the tiled CUDA code, run 'nvcc MatMulTiled.cu -o out3'.
+8. To execute the output file, run './out3' or 'out3'.
