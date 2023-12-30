@@ -4,6 +4,14 @@ We are multiplying two rectangular matrices filled with random 3-digit integers,
 # Output
 All programs output processing time taken by the matrix multiplication operation in milliseconds. Commented out sections include code for printing out the contents of matrix A, B, or C.
 
+# Prerequisites
+- C17 or above.
+- CUDA 12.3 or above.
+- The GNU Compiler Collection (GCC) 13.1 or above.
+- The NVIDIA CUDA Compiler (NVCC) 12.3 or above.
+- A GPU-enabled OS/environment.
+- Any text editor.
+
 # Compiling & Executing
 1. Open any terminal
 2. Navigate to the directory of the downloaded C/CUDA files
