@@ -13,7 +13,6 @@ Parallel CUDA programs include basic and tiled computations of the matrix multip
 - The latest version of GNU Compiler Collection (GCC).
 - The latest version of NVIDIA CUDA Compiler (NVCC).
 - A GPU-enabled OS/environment.
-- Any text editor.
 
 # Compile & Execute
 1. Open any terminal.
